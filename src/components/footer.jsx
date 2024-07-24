@@ -1,4 +1,5 @@
 import React from 'react';
+import AbletonIcon from '../assets/AbletonIcon.svg';
 
 
 
@@ -84,7 +85,7 @@ const Footer = () => {
         <p>Made in React.js by Atlis-Ky :D
           (please hire me I'm nice)
         </p>
-        <img src="src/assets/AbletonIcon.jpg" alt="Ableton Logo" />
+        <img src={AbletonIcon} alt="Ableton Logo" />
       </div>
       </div>
       

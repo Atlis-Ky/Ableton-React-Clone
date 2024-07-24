@@ -1,13 +1,13 @@
 import React from 'react';
 import './navbar.css';
-
+import AbletonIcon from '../assets/AbletonIcon.svg';
 
 const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-container">
                 <a href="#" className="logo">
-                    <img src="src/assets/AbletonIcon.jpg" alt="Ableton Logo" />
+                    <img src={AbletonIcon} alt="Ableton Logo" />
                 </a>
                 <ul className="nav-links">
                     <li><a href="#">Live</a></li>
