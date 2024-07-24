@@ -84,7 +84,7 @@ const Footer = () => {
         <p>Made in React.js by Atlis-Ky :D
           (please hire me I'm nice)
         </p>
-        <img src="src/assets/AbletonIcon.svg" alt="Ableton Logo" />
+        <img src="src/assets/AbletonIcon.jpg" alt="Ableton Logo" />
       </div>
       </div>
       

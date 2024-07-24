@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="navbar-container">
                 <a href="#" className="logo">
-                    <img src="src/assets/AbletonIcon.svg" alt="Ableton Logo" />
+                    <img src="src/assets/AbletonIcon.jpg" alt="Ableton Logo" />
                 </a>
                 <ul className="nav-links">
                     <li><a href="#">Live</a></li>
