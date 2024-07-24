@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "futura";
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 20px;
+  position: sticky; top:0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0;
+}
+
+.logo img {
+  height: 25px;
+  margin-right: 0;
+  padding-right: 00px;
+  
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 25px;
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff8f1f;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  margin-left: 0px;
+  border-radius: 5px;
+  font-size: 1rem;
+  align-items: flex-end;
+}
+
+.nav-buttons .try-btn {
+  color: #0000FF;
+  font-size: 1.2rem;
+  
+}
+
+.nav-buttons .try-btn:hover,
+.nav-buttons .account-btn:hover {
+  color: #ff8f1f;
+  transition: color 0.3s;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  list-style: none;
+  
+}
+
+.dropdown li {
+  padding: 10px 20px;
+}
+
+.dropdown li a {
+  color: #333;
+}
+
+.dropdown li a:hover {
+  color: #ff8f1f;
+  
+}
+
+.nav-links li:hover .dropdown {
+  display: block;
+}
