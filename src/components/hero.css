@@ -1,0 +1,182 @@
+/* MAIN HERO SECTION 1 */
+
+.sectionContainer1 {
+  background-image: url("../assets/AbletonHeroImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 8.33333vw;
+  width: 100%;
+  height: 95vh; 
+  max-height: fit-content;
+  position: relative; 
+}
+
+.h1Hero {
+font-family: "futura";
+font-weight: bold;
+color: #FDF900;
+font-size: 5rem;
+padding-top: 5px;
+}
+
+.section1p {
+  color: #FDF900;
+  font-size: 1.6rem;
+  font-weight: 100;
+  text-align: left;
+  padding-top: 10px;
+  text-decoration: underline;
+
+}
+
+/* CARDS SECTIONS 2-5*/
+
+
+.sectionContainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: auto;
+  width: 100%;
+  padding-left: 8.33333vw;
+  padding-right: 8.33333vw;
+  padding-bottom: 4.16667vw;
+  position: relative;
+}
+
+
+
+.sectionSubheading {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
+
+.sectionContainer2 h2 {
+  margin: 0;
+  padding-right: 40px;
+}
+
+.subNavLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.subNavLinks li {
+  text-decoration: none;
+  color: #0000FF;
+  font-size: 1.4rem;
+  transition: color 0.3s;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.subNavLinks li:hover {
+  color: #ff8f1f;
+  transition: color 0.3s;
+}
+
+.h2Hero {
+  font-family: "futura";
+  font-weight: bold;
+  color: #000000;
+  font-size: 2.2rem;
+  white-space: nowrap;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: -10px; 
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.cardText {
+  padding: 15px;
+}
+
+.cardText .label {
+  display: inline-block;
+  background-color: #ff8389;
+  color: black;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  font-family: "futura";
+}
+
+.cardText .title {
+  font-family: "futura";
+  color: #000;
+  font-size: 1rem;
+}
+
+/* DIVIDER */
+
+.footerDivider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  background-color: #EEEEEE;
+  height: 150px;
+  width: 100%;
+  padding-left: 8.33333vw;
+  padding-right: 8.33333vw;
+  padding-bottom: 4.16667vw;
+  position: relative;
+}
+
+.subNavLinks2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 75px;
+  display: flex;
+  justify-content: center; 
+}
+
+.subNavLinks2 li {
+  text-decoration: none;
+  color: #0000FF;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+  white-space: nowrap;
+  margin-left: 15px;
+}
+
+.subNavLinks2 li:first-child {
+  color: #000;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.subNavLinks2 li:not(:first-child):hover {
+  color: #ff8f1f;
+  transition: color 0.3s;
+}
